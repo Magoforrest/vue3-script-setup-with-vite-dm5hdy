@@ -8,6 +8,7 @@
 </template>
 <script setup>
 import { useLoginStore } from '@/stores/loginStore'
+
 const store = useLoginStore()
 let name = ''
 let lastName = ''
