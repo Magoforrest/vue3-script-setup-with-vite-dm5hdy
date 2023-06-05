@@ -3,10 +3,10 @@ import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import App from './App.vue'
 import './assets/style.css'
-import {router} from './router/index.js'
+import { router } from '@/router/index.js'
 const pinia = createPinia()
 const app = createApp(App)
-const router= createRouter()
+const router = createRouter()
 app.use(createAuth0())
 
 try {
