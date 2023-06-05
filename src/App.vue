@@ -1,11 +1,10 @@
 <script setup>
 import { ref } from 'vue'
-import HelloWorld from '@/components/HelloWorld.vue'
-import Form from '@/components/Form.vue'
+import MainView from '@/views/MainView.vue'
 
 const msg = ref('Hello World!')
 </script>
 
 <template>
-  <Form />
+  <MainView />
 </template>
