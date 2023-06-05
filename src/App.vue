@@ -9,4 +9,5 @@ const msg = ref('Hello World!')
 <template>
   <MainView />
   <RouterLink class="text-2xl hover:underline" to="/">Main</RouterLink>
+<RouterView></RouterView>
 </template>
