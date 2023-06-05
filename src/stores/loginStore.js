@@ -2,11 +2,14 @@ import { defineStore } from 'pinia'
 export const useLoginStore = defineStore('useLoginStore', {
   state: () => ({
     title: 'Title',
+    name: '',
+    lastName: '',
   }),
 
   actions: {
-    increment() {
-      this.count++
+    login(name, lastName) {
+      ;(this.name = name), (this.lastName = lastName)
+      console.log(name)
     },
   },
 })
